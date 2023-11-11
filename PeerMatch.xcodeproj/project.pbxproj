@@ -18,6 +18,8 @@
 		C954F9432B0000F1008B8E7F /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954F9422B0000F1008B8E7F /* ProfileViewModel.swift */; };
 		C954F9452B000F38008B8E7F /* ProfilePortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954F9442B000F38008B8E7F /* ProfilePortfolioView.swift */; };
 		C954F9472B001185008B8E7F /* PortfolioCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954F9462B001185008B8E7F /* PortfolioCardView.swift */; };
+		C954F9492B002BCA008B8E7F /* HomeSuggestedMenteesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954F9482B002BCA008B8E7F /* HomeSuggestedMenteesView.swift */; };
+		C954F94B2B002D5F008B8E7F /* MenteeProfileCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954F94A2B002D5F008B8E7F /* MenteeProfileCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		C954F9422B0000F1008B8E7F /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		C954F9442B000F38008B8E7F /* ProfilePortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePortfolioView.swift; sourceTree = "<group>"; };
 		C954F9462B001185008B8E7F /* PortfolioCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioCardView.swift; sourceTree = "<group>"; };
+		C954F9482B002BCA008B8E7F /* HomeSuggestedMenteesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSuggestedMenteesView.swift; sourceTree = "<group>"; };
+		C954F94A2B002D5F008B8E7F /* MenteeProfileCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenteeProfileCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				C954F93C2AFFD524008B8E7F /* HomeView.swift */,
+				C954F9482B002BCA008B8E7F /* HomeSuggestedMenteesView.swift */,
+				C954F94A2B002D5F008B8E7F /* MenteeProfileCardView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -205,6 +211,8 @@
 				C954F93D2AFFD524008B8E7F /* HomeView.swift in Sources */,
 				C94EE44F2AFFD157008D8FFE /* PeerMatchApp.swift in Sources */,
 				C954F9432B0000F1008B8E7F /* ProfileViewModel.swift in Sources */,
+				C954F94B2B002D5F008B8E7F /* MenteeProfileCardView.swift in Sources */,
+				C954F9492B002BCA008B8E7F /* HomeSuggestedMenteesView.swift in Sources */,
 				C954F9472B001185008B8E7F /* PortfolioCardView.swift in Sources */,
 				C954F9452B000F38008B8E7F /* ProfilePortfolioView.swift in Sources */,
 			);

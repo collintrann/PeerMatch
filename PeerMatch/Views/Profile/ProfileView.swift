@@ -9,15 +9,19 @@ import SwiftUI
 
 struct ProfileView: View {
     var body: some View {
-        ScrollView {
-            VStack {
-                ProfileHeaderView()
-                ProfilePortfolioView()
-                //stuff
-                //socials like linkedin, github
+        VStack {
+            Text("Your Profile")
+            ScrollView {
+                VStack {
+                    ProfileHeaderView()
+                    ProfilePortfolioView()
+                    //stuff
+                    //socials like linkedin, github
+                }
             }
+            .background(Color.gray.opacity(0.1))
+            .edgesIgnoringSafeArea(.top)
         }
-        .background(Color.gray.opacity(0.1))
     }
 }
 
