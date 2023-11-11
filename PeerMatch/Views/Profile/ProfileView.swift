@@ -15,8 +15,8 @@ struct ProfileView: View {
                 VStack {
                     ProfileHeaderView()
                     ProfilePortfolioView()
-                    //stuff
-                    //socials like linkedin, github
+                    RequestAndConnectView()
+                    AddSocialsView()
                 }
             }
             .background(Color.gray.opacity(0.1))

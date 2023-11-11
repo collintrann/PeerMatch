@@ -20,6 +20,9 @@
 		C954F9472B001185008B8E7F /* PortfolioCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954F9462B001185008B8E7F /* PortfolioCardView.swift */; };
 		C954F9492B002BCA008B8E7F /* HomeSuggestedMenteesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954F9482B002BCA008B8E7F /* HomeSuggestedMenteesView.swift */; };
 		C954F94B2B002D5F008B8E7F /* MenteeProfileCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954F94A2B002D5F008B8E7F /* MenteeProfileCardView.swift */; };
+		C954F94D2B0035EC008B8E7F /* HelpWithProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954F94C2B0035EC008B8E7F /* HelpWithProjectsView.swift */; };
+		C954F94F2B003C0F008B8E7F /* RequestAndConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954F94E2B003C0F008B8E7F /* RequestAndConnectView.swift */; };
+		C954F9512B003D6F008B8E7F /* AddSocialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954F9502B003D6F008B8E7F /* AddSocialsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		C954F9462B001185008B8E7F /* PortfolioCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioCardView.swift; sourceTree = "<group>"; };
 		C954F9482B002BCA008B8E7F /* HomeSuggestedMenteesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSuggestedMenteesView.swift; sourceTree = "<group>"; };
 		C954F94A2B002D5F008B8E7F /* MenteeProfileCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenteeProfileCardView.swift; sourceTree = "<group>"; };
+		C954F94C2B0035EC008B8E7F /* HelpWithProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpWithProjectsView.swift; sourceTree = "<group>"; };
+		C954F94E2B003C0F008B8E7F /* RequestAndConnectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestAndConnectView.swift; sourceTree = "<group>"; };
+		C954F9502B003D6F008B8E7F /* AddSocialsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSocialsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,8 @@
 				C954F9382AFFD41C008B8E7F /* ProfileHeaderView.swift */,
 				C954F9442B000F38008B8E7F /* ProfilePortfolioView.swift */,
 				C954F9462B001185008B8E7F /* PortfolioCardView.swift */,
+				C954F94E2B003C0F008B8E7F /* RequestAndConnectView.swift */,
+				C954F9502B003D6F008B8E7F /* AddSocialsView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -114,6 +122,7 @@
 				C954F93C2AFFD524008B8E7F /* HomeView.swift */,
 				C954F9482B002BCA008B8E7F /* HomeSuggestedMenteesView.swift */,
 				C954F94A2B002D5F008B8E7F /* MenteeProfileCardView.swift */,
+				C954F94C2B0035EC008B8E7F /* HelpWithProjectsView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -210,11 +219,14 @@
 				C954F9392AFFD41C008B8E7F /* ProfileHeaderView.swift in Sources */,
 				C954F93D2AFFD524008B8E7F /* HomeView.swift in Sources */,
 				C94EE44F2AFFD157008D8FFE /* PeerMatchApp.swift in Sources */,
+				C954F94F2B003C0F008B8E7F /* RequestAndConnectView.swift in Sources */,
 				C954F9432B0000F1008B8E7F /* ProfileViewModel.swift in Sources */,
 				C954F94B2B002D5F008B8E7F /* MenteeProfileCardView.swift in Sources */,
+				C954F9512B003D6F008B8E7F /* AddSocialsView.swift in Sources */,
 				C954F9492B002BCA008B8E7F /* HomeSuggestedMenteesView.swift in Sources */,
 				C954F9472B001185008B8E7F /* PortfolioCardView.swift in Sources */,
 				C954F9452B000F38008B8E7F /* ProfilePortfolioView.swift in Sources */,
+				C954F94D2B0035EC008B8E7F /* HelpWithProjectsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
