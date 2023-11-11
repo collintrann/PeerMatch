@@ -76,7 +76,7 @@ struct ProfileHeaderView: View {
             HStack {
                 Text("Status: ")
                     .font(.caption)
-                Text("Accepting Students")
+                Text("Accepting Mentees")
                         .font(.caption)
                         .padding(5)
                         .background(Color.green.opacity(0.1))
@@ -86,7 +86,7 @@ struct ProfileHeaderView: View {
             .padding(.horizontal, 5.0)
         }
         .padding()
-        .background(Color.gray.opacity(0.1))
+        .background(Color.white)
     }
 }
 

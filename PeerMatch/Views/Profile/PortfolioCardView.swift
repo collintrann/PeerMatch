@@ -8,15 +8,31 @@
 import SwiftUI
 
 struct PortfolioCardView: View {
-    var projectInfo: String
+    var menteeInfo: String = "placeholder"
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            RoundedRectangle(cornerRadius: 5)
+                .fill(.blue.opacity(0.2))
+            
+            VStack(spacing: 20) {
+                Text(menteeInfo)
+                    .foregroundStyle(.white)
+                    .font(.headline)
+                
+                Button {
+                    
+                } label: {
+                    Image(systemName: "arrow.right")
+                        .foregroundStyle(.blue)
+                }
+            }
+        }
     }
 }
 
 struct PortfolioCardView_Previews: PreviewProvider {
     static var previews: some View {
-        PortfolioCardView(projectInfo: <#String#>)
+        PortfolioCardView()
     }
 }

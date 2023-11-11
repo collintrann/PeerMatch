@@ -8,21 +8,37 @@
 import SwiftUI
 
 struct ProfilePortfolioView: View {
-    var portfolioItems = [PortfolioCardView(projectInfo: String)]
+    var menteeItems = ["project1", "project2", "project3", "project4", "project5", "project6", "project7", "project8", "project9"]
     
-    var gridLayout = [GridItem(.adaptive(minimum: 80))]
-    
+    let columns: [GridItem] = Array(repeating: .init(.fixed(100)), count: 5)
+
     var body: some View {
-        ScrollView {
-            Text("Mentee Portfolio")
-                .font(.title)
-                .fontWeight(.regular)
-            LazyVGrid(columns: gridLayout, spacing: 5) {
-                ForEach(portfolioItems, id: \.self) {item in
-                    
+        VStack {
+            HStack {
+                Text("Past Mentees")
+                    .font(.footnote)
+                    .padding(5)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 2)
+                            .stroke(.black, lineWidth: 1)
+                    )
+                Spacer()
+            }
+            .padding(.bottom)
+            ScrollView(.horizontal) {
+                LazyVGrid(columns: columns, spacing: 0) {
+                    ForEach(menteeItems, id: \.self) { item in
+                        PortfolioCardView(menteeInfo: item)
+                            .frame(minWidth: 100, minHeight: 150)
+                            .shadow(radius: 10)
+                    }
+                    .padding(3)
                 }
+                .frame(maxHeight: 325)
             }
         }
+        .padding()
+        .background(Color.white)
     }
 }
 

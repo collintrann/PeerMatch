@@ -12,8 +12,12 @@ struct ProfileView: View {
         ScrollView {
             VStack {
                 ProfileHeaderView()
+                ProfilePortfolioView()
+                //stuff
+                //socials like linkedin, github
             }
         }
+        .background(Color.gray.opacity(0.1))
     }
 }
 
