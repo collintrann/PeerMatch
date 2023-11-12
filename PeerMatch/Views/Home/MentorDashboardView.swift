@@ -43,7 +43,7 @@ struct MentorDashboardView: View {
                     HStack {
                         Image(systemName: "circle.fill")
                             .foregroundColor(Color(hue: 0.664, saturation: 0.856, brightness: 0.548))
-                        Text("11/5, 6:00pm:\nCode Review with Jayden")
+                        Text("11/5, 6:00pm:\nCode Review with Jaden")
                             .font(.caption)
                         Spacer()
                     }
@@ -55,7 +55,7 @@ struct MentorDashboardView: View {
                     HStack {
                         Image(systemName: "circle.fill")
                             .foregroundColor(Color.orange)
-                        Text("Ben: OCC")
+                        Text("Benjamin: OCC")
                             .font(.caption)
                         Spacer()
                     }
@@ -65,7 +65,7 @@ struct MentorDashboardView: View {
                     HStack {
                         Image(systemName: "circle.fill")
                             .foregroundColor(Color.blue)
-                        Text("Jayden: UCR")
+                        Text("Nathan: UCR")
                             .font(.caption)
                         Spacer()
                     }
@@ -75,7 +75,7 @@ struct MentorDashboardView: View {
                     HStack {
                         Image(systemName: "circle.fill")
                             .foregroundColor(Color.yellow)
-                        Text("Kotaro: UCSB")
+                        Text("Kody: UCSB")
                             .font(.caption)
                         Spacer()
                     }
