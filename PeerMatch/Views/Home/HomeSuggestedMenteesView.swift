@@ -16,7 +16,7 @@ struct HomeSuggestedMenteesView: View {
         
         VStack(spacing: 0) {
             HStack {
-                Text("Students looking for mentors at your school:")
+                Text("Students looking for mentors at your school!")
                     .font(.callout)
                 Spacer()
             }

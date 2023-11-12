@@ -16,6 +16,7 @@ struct HomeView: View {
             ScrollView {
                 VStack {
                     HomeSuggestedMenteesView()
+                    MentorDashboardView()
                 }
             }
             .background(.gray.opacity(0.1))

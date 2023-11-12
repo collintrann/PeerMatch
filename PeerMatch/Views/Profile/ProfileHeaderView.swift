@@ -61,7 +61,7 @@ struct ProfileHeaderView: View {
                     }
                     
                     HStack { // Tech Stack
-                        ForEach(["python", "javascript", "react"], id: \.self) { tech in
+                        ForEach(["python", "javascript", "react, html, css"], id: \.self) { tech in
                             Text(tech)
                                 .padding(5)
                                 .font(.caption)
