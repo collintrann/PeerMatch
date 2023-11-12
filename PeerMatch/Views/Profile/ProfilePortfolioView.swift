@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ProfilePortfolioView: View {
-    var menteeItems = ["Wesley T.", "Elijah B", "Ben B", "Kody K", "Colin N", "Brihant T", "Jonathan D", "Jayden T", "Jaden N"]
+    var menteeItems = ["Wesley T.", "Elijah B.", "Ben B.", "Kody K.", "Colin N.", "Brihant T.", "Jonathan D.", "Jayden T.", "Jaden N."]
     
     let columns: [GridItem] = Array(repeating: .init(.fixed(100)), count: 5)
 
@@ -34,7 +34,7 @@ struct ProfilePortfolioView: View {
                     }
                     .padding(3)
                 }
-                .frame(maxHeight: 325)
+                .frame(maxHeight: 300)
             }
         }
         .padding()
