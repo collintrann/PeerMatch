@@ -10,7 +10,7 @@ import SwiftUI
 struct HomeSuggestedMenteesView: View {
     var body: some View {
         
-        let menteeProfiles = ["Kotaro Ito", "Jayden Trieu", "Ben Prado"]
+        let menteeProfiles = ["Kotaro I.", "Jayden T.", "Ben P."]
         
         let columns: [GridItem] = Array(repeating: .init(.fixed(100)), count: 5)
         

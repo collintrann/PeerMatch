@@ -24,7 +24,7 @@ struct ContentView: View {
             if #available(iOS 15.0, *) {
                 let appearance = UITabBarAppearance()
                 appearance.configureWithOpaqueBackground()
-                appearance.backgroundColor = UIColor.white // Set your desired color
+                appearance.backgroundColor = UIColor.white 
 
                 UITabBar.appearance().standardAppearance = appearance
                 if #available(iOS 15.0, *) {

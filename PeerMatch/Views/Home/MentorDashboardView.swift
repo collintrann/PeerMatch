@@ -19,11 +19,11 @@ struct MentorDashboardView: View {
             .padding(2)
             HStack {
                 Text("Upcoming meetings")
-                    .font(.footnote)
+                    .font(.callout)
 
                 Spacer()
                 Text("Current Mentees")
-                    .font(.footnote)
+                    .font(.callout)
                     .padding(.trailing)
                 Spacer()
             }
@@ -33,7 +33,7 @@ struct MentorDashboardView: View {
                     HStack {
                         Image(systemName: "circle.fill")
                             .foregroundColor(Color(hue: 0.524, saturation: 0.778, brightness: 0.528))
-                        Text("11/4, 2:00pm:\nBrainstorming session with Ben")
+                        Text("11/4, 2:00pm:\nProject brainstorming session with Ben")
                             .font(.caption)
                         Spacer()
                     }
@@ -85,6 +85,12 @@ struct MentorDashboardView: View {
                 }
                 Spacer()
             }
+            HStack {
+                Image(systemName: "exclamationmark.bubble")
+                Text("2 new mentorship requests: Review Now")
+                    .foregroundColor(.blue)
+            }
+            .padding(.vertical, 4)
         }
         .padding()
         .background(.white)
